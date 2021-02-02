@@ -1,6 +1,5 @@
 <?php
-include_once XOOPS_ROOT_PATH . "/modules/tadtools/language/{$xoopsConfig['language']}/modinfo_common.php";
-
+xoops_loadLanguage('modinfo_common', 'tadtools');
 define('_MI_TADPLAYER_NAME', '影音播放');
 define('_MI_TADPLAYER_AUTHOR', 'Tad (tad0616@gmail.com)');
 define('_MI_TADPLAYER_CREDITS', 'ck2 (http://ck2tw.net)');
@@ -27,7 +26,7 @@ define('_MI_TADPLAYER_BORDER_COLOR', '<b>縮圖文字外框顏色</b>');
 define('_MI_TADPLAYER_BORDER_COLOR_DESC', '請設定縮圖文字外框顏色');
 
 define('_MI_TADPLAYER_DIRNAME', basename(dirname(dirname(__DIR__))));
-define('_MI_TADPLAYER_HELP_HEADER', __DIR__ . '/help/helpheader.html');
+define('_MI_TADPLAYER_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
 define('_MI_TADPLAYER_BACK_2_ADMIN', 'Back to Administration of ');
 
 //help

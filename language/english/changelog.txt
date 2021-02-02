@@ -1,4 +1,54 @@
-Tad Player 3.5.4 (2017-01-07 released)
+Tad Player 3.6.3 (2020-03-14 released)
+====================================================
+1. Streamline playback syntax and add settings such as auto play, repeat play, list position ...
+2.Fixed the problem that thumbnails cannot be generated
+3. corrected for 2.0 AA accessibility standards
+
+
+Tad Player 3.6.2 (2019-10-16 released)
+=========================================================
+1. Fully switch to VideoJS player, no longer use JW Player
+
+Tad Player 3.6.1 (2019-08-06 released)
+=========================================================
+1. Support "XOOPS Website" App
+
+Tad Player 3.6 (2019-05-10 released)
+=========================================================
+1. Support XOOPS 2.5.10
+2. No longer supports PHP 5.3
+
+
+Tad Player 3.5.9 (2019-02-15 released)
+=========================================================== ==
+1. Fixed the problem that the background of the video playback could not be deleted.
+2. Fixed an issue where the video sorting was invalid.
+
+Tad Player 3.5.8 (2019-01-01 released)
+====================================================
+1.Support BootStrap4
+2.Support PHP 7.3
+
+
+Tad Player 3.5.7 (2018-10-02 released)
+=========================================================== ==
+1. Remove the Big5 Chinese language family
+2. Fixed an issue where non-admins could not delete the movie.
+
+
+Tad Player 3.5.6 (2018-03-30 released)
+================================================== ==
+1. Support PHP 7.2
+2. Block add the big picture mode
+3. Support database strict mode
+
+
+Tad Player 3.5.5 (2017-06-16 released)
+====================================================
+1.Complete accessibility 2.0 A level detection
+
+
+TTad Player 3.5.4 (2017-01-07 released)
 ====================================================
 1.Change the col-md of boootstrap to col-sm
 

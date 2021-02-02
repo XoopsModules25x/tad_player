@@ -1,5 +1,5 @@
 <?php
-include_once '../../tadtools/language/' . $xoopsConfig['language'] . '/admin_common.php';
+xoops_loadLanguage('admin_common', 'tadtools');
 define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS輕鬆架</a>下載。');
 
 define('_MA_INPUT_CATE_FORM', '分類設定表單');
@@ -11,7 +11,7 @@ define('_MA_TADPLAYER_ENABLE_UPLOAD_GROUP', '可傳群組');
 define('_MA_TADPLAYER_ALL_OK', '所有群組');
 define('_MA_TADPLAYER_XML_OK', '「%s」的播放清單製作完成！');
 define('_MA_TADPLAYER_JSON_OK', '播放清單製作完成！');
-define('_MD_TADPLAYER_BLANK', '　');
+define('_MA_TADPLAYER_BLANK', '　');
 define('_MA_TADPLAYER_THE_ACT_IS', '將勾選的影片：');
 define('_MA_TADPLAYER_MOVE_TO', '搬移到：');
 define('_MA_TADPLAYER_ADD_TITLE', '加入標題：');
